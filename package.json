@@ -1,23 +1,9 @@
 {
-  "name": "vite-plugin-bib",
+  "name": "plugin-bib",
   "version": "1.0.0",
-  "type": "module",
-  "author": {
-    "name": "Chunxu Yang",
-    "url": "https://www.chunxuyang.com"
-  },
   "license": "MIT",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsup",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "tsup": "^8.1.0",
-    "typescript": "^5.2.2",
-    "vite": "^5.3.1"
-  },
-  "dependencies": {
-    "bibtex-parse-js": "^0.0.24"
-  }
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ]
 }
