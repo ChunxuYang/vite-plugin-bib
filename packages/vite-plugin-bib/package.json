@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-bib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "author": {
     "name": "Chunxu Yang",
@@ -59,7 +59,6 @@
     "vite": "^5.3.1"
   },
   "dependencies": {
-    "bibtex-js-parser": "^1.1.6",
-    "bibtex-parse-js": "^0.0.24"
+    "bibtex-js-parser": "^1.1.6"
   }
 }
